@@ -31,12 +31,6 @@
         <version>5.8.2</version> <!-- Check for the latest version on the JUnit website -->
         <scope>test</scope>
     </dependency>
-    <dependency>
-        <groupId>com.google.cloud</groupId>
-        <artifactId>google-cloud-vision</artifactId>
-        <version>3.0.0</version> <!-- Replace with the latest version -->
-    </dependency>
-
     <!-- Lombok (if not already included) -->
     <dependency>
         <groupId>org.projectlombok</groupId>
@@ -44,6 +38,13 @@
         <version>1.18.22</version> <!-- Replace with the latest version -->
         <scope>provided</scope>
     </dependency>
+    <dependency>
+         <groupId>com.google.cloud</groupId>
+         <artifactId>google-cloud-vision</artifactId>
+         <version>3.30.0</version> <!-- Replace with the latest version -->
+     </dependency>
+
+
   </dependencies>
 
 
